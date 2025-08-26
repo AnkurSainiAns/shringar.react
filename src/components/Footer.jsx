@@ -30,6 +30,7 @@ function Footer() {
             rows="5"
             placeholder="Your feedback..."
           ></textarea>
+          <button id="sub">Submit</button>
         </div>
 
         <div className="copyright">
