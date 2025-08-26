@@ -1,0 +1,54 @@
+.footer-nav nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    
+}
+
+.footer-nav nav a:hover {
+  color: green;          
+}
+.logo-footer{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding: 1.5rem;
+    margin-top: -5%;
+    width: 10%;
+    color: black;
+}
+.logo-footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    margin-top: -1rem;
+    color: white;
+    padding-left: 1.5rem;
+}
+.Feedback {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2rem;
+  margin-top: -6rem; 
+  
+}
+.Feedback p{
+    font-size: 1.5rem;
+    color: white;
+    margin-top: -3rem;
+    margin-right: -12rem;
+}
+.copyright{
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    padding: 1rem;
+}
