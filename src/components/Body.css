@@ -9,7 +9,7 @@ body{
   flex-direction: column;
   width: 100%;
   text-align: center;
-  background-image: url(main.webp);
+  background-image: url("/main.webp");
   background-size: cover;
   height: 150vh;
   margin-top: 0%;

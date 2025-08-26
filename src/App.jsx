@@ -1,27 +1,25 @@
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
-import Shop from "./components/Shop";
+import Footer from "./components/Footer";
+import Body from "./components/Body";
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Body from "./components/Body";
+import Shop from "./components/Shop";
 import Bangles from "./components/catagory/Bangles";
 import Earrings from "./components/catagory/Earrings";
 import Kaleera from "./components/catagory/Kaleera";
 import ManngTikka from "./components/catagory/ManngTikka";
 import Necklaces from "./components/catagory/Necklaces";
 import Rings from "./components/catagory/Rings";
-import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
       <Header />
-      
       <Routes>
         <Route path="/" element={<Body />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-
         <Route path="/shop" element={<Shop />}>
           <Route path="bangles" element={<Bangles />} />
           <Route path="earrings" element={<Earrings />} />
@@ -31,7 +29,7 @@ function App() {
           <Route path="rings" element={<Rings />} />
         </Route>
       </Routes>
-      <Footer />  
+      <Footer />
     </>
   );
 }

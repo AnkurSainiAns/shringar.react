@@ -16,6 +16,8 @@ export { cat4, cat5, cat6 };
 // stars to images
 import star from "./web/star.png";
 export { star };
+// import main from "./web/main.png";
+// export { main };
 // rewew to images
 import review1 from "./web/webp/sami.png";
 import review2 from "./web/webp/black.png";

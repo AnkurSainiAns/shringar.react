@@ -6,6 +6,7 @@ import { cat4, cat5, cat6 } from "../assets/images/images.jsx"; //catagory image
 import { star } from "../assets/images/images.jsx"; //star image
 import { review1, review2, review3, review4 } from "../assets/images/images.jsx"; //review
 import { slider1, slider2, slider3 } from "../assets/images/images.jsx"; //slider 2 images
+// import {main} from "../assets/images/images.jsx";
 
 
 function Body() {
