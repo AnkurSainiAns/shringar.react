@@ -8,7 +8,7 @@
 }
 
 .footer-nav nav a:hover {
-  color: green;          
+  color: maroon;          
 }
 .logo-footer{
     display: flex;
@@ -30,25 +30,33 @@
     flex-direction: column;
     font-size: 1rem;
     margin-top: -1rem;
-    color: white;
+    color: black;
     padding-left: 1.5rem;
 }
 .Feedback {
   display: flex;
   justify-content: flex-end;
   margin-right: 2rem;
-  margin-top: -6rem; 
+  margin-top: -4rem; 
   
 }
 .Feedback p{
     font-size: 1.5rem;
-    color: white;
-    margin-top: -3rem;
+    color: black;
+    margin-top: -2.5rem;
     margin-right: -12rem;
 }
 .copyright{
     text-align: center;
     font-size: 1rem;
-    color: white;
+    color: black;
     padding: 1rem;
+}
+.social{
+    margin: 1.5rem;
+}
+.social img{
+    width: 2.5%;
+    height: 100%;
+    
 }

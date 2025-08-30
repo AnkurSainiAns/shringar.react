@@ -1,0 +1,24 @@
+.bmain {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.bshop{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.bshop img{
+  width: 100%;
+  height:100%;
+  background-size: cover;
+}
+radio{
+  
+  font-size: 1.5rem;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+}

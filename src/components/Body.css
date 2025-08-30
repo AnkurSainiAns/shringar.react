@@ -236,3 +236,11 @@ body{
   margin-top: -4%;
   margin-bottom: 3%;
 }
+.fun{
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+.con a{
+  text-decoration: none;
+}

@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom";
+import { call } from "../assets/images/images";
+import { m } from "../assets/images/images";
+import { l } from "../assets/images/images";
 import "./Footer.css";
 function Footer() {
   return (
@@ -20,11 +23,17 @@ function Footer() {
           Pilani -333031
           <br />
           jhunjhunu, Rajasthan, India
-          <p>Follow us on:</p>
+          
         </div>
-         
+        <div className="social">
+          <p>Follow us on:</p>
+          <Link to="/Contact"><img src={call}  alt="Call Icon" />
+          <img src={m} alt="mail Icon" />
+          <img src={l} alt="link Icon" /></Link>
+        </div>
+
         <div className="Feedback">
-         <p className="feed"> Feedback</p>
+          <p className="feed"> Feedback</p>
           <textarea
             cols="40"
             rows="5"

@@ -29,3 +29,12 @@ import slider1 from "./web/webp/slid5.webp";
 import slider2 from "./web/webp/slid11.webp";
 import slider3 from "./web/webp/slid4.webp";
 export { slider1, slider2, slider3 };
+
+
+//footer k liye
+import call from "./social/call.png";
+import m from "./social/m.png";
+import l from "./social/l.png";
+export {call, m, l}
+
+
